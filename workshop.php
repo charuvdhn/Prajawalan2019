@@ -70,24 +70,16 @@
                 line-height: 25px;
                 color: white;
             }
-            a.button {
-                text-decoration: none;
-            }
-            .button {
-                padding: 14px 22px;
-                background-color: #cecece;
-                color: #333333;
-                border-radius: 3px;
-                margin-bottom: 20px;
-                display: inline-block;
-            }
-            .button:hover {
-                background-color: #e1e1e1;
-            }
+          
             .thumbs {
                 display: block;
             }
-            
+            strong{
+            color: #02dd83;
+            }   
+            td{
+            width: 20rem;
+            }
         </style>
 		
 	</head>
@@ -117,7 +109,7 @@
                 <h4>PTC CREO 3.0</h4><span class="description">Learn About CREO</span></a>
             </li>
             <li>
-                <a href="#thumb2" class="thumbnail" style="background-image: url('./workshop/images/game.jpg')"><h4>GAME DEVELOPMENT</h4><span class="description">Learn About GAME DEVELOPMENT</span></a>
+                <a href="#thumb2" class="thumbnail" style="background-image: url('./workshop/images/game.jpg')"><h4>GAME DEVELOPMENT</h4><span class="description">Learn About GAMING</span></a>
             </li>
             <li>
                 <a href="#thumb3" class="thumbnail" style="background-image: url('./workshop/images/iot.jpg')"><h4>INTERNET OF THINGS</h4><span class="description">Learn About IOT</span></a>
@@ -128,53 +120,66 @@
            
         </ul>
 
-        <div class="portfolio-content">
+          <div  class="portfolio-content">
             <div id="thumb1">
-                <div class="media"><img src="./workshop/images/creo.jpg"/><iframe src="//player.vimeo.com/video/69666609?byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                <div class="media"><img src="images/creo.jpg"/><iframe src="//player.vimeo.com/video/69666609?byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                 <h1>PTC CREO 3.0</h1>
-                <p>Can you imagine a computing concept where everyday objects have network connectivity? Is it possible for ordinary devices to communicate among themselves?
-                Yes!! And the answer is ‘the Internet of Things’.
-                This Network of networks extracts and makes sense of data within machines. An estimated 30 million wireless devices are to be connected to the internet by 2020.
-                Interesting! Isn't it?
-                How beautiful it is when your door can update its Facebook Status every time some one opens it. A song starts playing when you tweet about it. A fire sensor that automatically send an E-Mail to the fire department. Keeping all the awesomeness in mind Innovians Technologies has introduced the Internet of things workshop to get you ready for the future.
-                You’ll learn the basic concepts and features of the Internet of Things and build projects utilizing the Arduino platform. You’ll discover fundamental concepts of cloud computing, sensor reading and connecting the Arduino to the Internet, wireless interfaces and Android phones. You’ll also learn to use the most popular open platforms for managing sensor data from the Arduino, how to trigger actuators remotely, and how to reprogram Arduino using cloud services.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <p style="overflow-y: auto;
+                height: 200px;">Can you imagine a computing concept where everyday objects have network connectivity? Is it possible for ordinary devices to communicate among themselves?<br>Yes!! And the answer is ‘the Internet of Things’.<br>This Network of networks extracts and makes sense of data within machines. An estimated 30 million wireless devices are to be connected to the internet by 2020.<br>Interesting! Isn't it?<br>How beautiful it is when your door can update its Facebook Status every time some one opens it. A song starts playing when you tweet about it. A fire sensor that automatically send an E-Mail to the fire department. Keeping all the awesomeness in mind Innovians Technologies has introduced the Internet of things workshop to get you ready for the future.<br>You’ll learn the basic concepts and features of the Internet of Things and build projects utilizing the Arduino platform. You’ll discover fundamental concepts of cloud computing, sensor reading and connecting the Arduino to the Internet, wireless interfaces and Android phones. You’ll also learn to use the most popular open platforms for managing sensor data from the Arduino, how to trigger actuators remotely, and how to reprogram Arduino using cloud services.</p>
+                <br/>
             </div>
 
             <div id="thumb2">
-                <div class="media"><img src="./workshop/images/game.jpg"/></div>
+                <div class="media"><img src="images/game.jpg"/></div>
                 <h1>GAME DEVELOPMENT</h1>
-                <p>Due to constant rise of the video game industry, the demand for game developers is increasing at a steadfast rate. The Game Development Workshop will impart participants with the knowledge of the tools and techniques needed for design and development of games. This intensive two-day workshop will explore the day-to-day craft of game design through hands-on activities, group discussion, analysis, and critique. The training focus is to enable participants to develop interactive games using JavaScript and C# with the help of live projects</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <p style="overflow-y: auto;
+                height: 200px;">Due to constant rise of the video game industry, the demand for game developers is increasing at a
+                steadfast rate. The Game Development Workshop will impart participants with the knowledge of the tools
+                and techniques needed for design and development of games. This intensive two-day workshop will
+                explore the day-to-day craft of game design through hands-on activities, group discussion, analysis, and
+                critique. The training focus is to enable participants to develop interactive games using JavaScript and C# with the help of live projects.<br><strong>Topics to be Covered in Workshop</strong><br>
+                1.Introduction to Game Development<br>
+                2.Physics involved in Game Development<br>
+                3.Introduction to Unity<br>
+                4.JavaScript for Unity<br>
+                5.Controlling Characters<br>
+                6.Developing a game using the above tools<br>
+                7.Live demonstration and examples<br></p>
+                
             </div>
 
             <div id="thumb3">
-                <div class="media"><img src="./workshop/images/iot.jpg"/></div>
+                <div class="media"><img src="images/iot.jpg"/></div>
                 <h1>INTERNET OF THINGS</h1>
-                <p>How beautiful it is when your door can update its Facebook Status every time some one opens it. A song starts playing when you tweet about it. A fire sensor that automatically send an E-Mail to the fire department. Keeping all the awesomeness in mind Innovians Technologies has introduced the Internet of things workshop to get you ready for the future.
-                You’ll learn the basic concepts and features of the Internet of Things and build projects utilizing the Arduino platform. You’ll discover fundamental concepts of cloud computing, sensor reading and connecting the Arduino to the Internet, wireless interfaces and Android phones. You’ll also learn to use the most popular open platforms for managing sensor data from the Arduino, how to trigger actuators remotely, and how to reprogram Arduino using cloud services.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+               <p style="overflow-y: auto;
+                height: 200px;">Can you imagine a computing concept where everyday objects have network connectivity? Is it possible for ordinary devices to communicate among themselves?<br>Yes!! And the answer is ‘the Internet of Things’.<br>This Network of networks extracts and makes sense of data within machines. An estimated 30 million wireless devices are to be connected to the internet by 2020.<br><br><strong>Interesting! Isn't it?</strong><br><br>How beautiful it is when your door can update its Facebook Status every time some one opens it. A song starts playing when you tweet about it. A fire sensor that automatically send an E-Mail to the fire department. Keeping all the awesomeness in mind Innovians Technologies has introduced the Internet of things workshop to get you ready for the future.<br>You’ll learn the basic concepts and features of the Internet of Things and build projects utilizing the Arduino platform. You’ll discover fundamental concepts of cloud computing, sensor reading and connecting the Arduino to the Internet, wireless interfaces and Android phones. You’ll also learn to use the most popular open platforms for managing sensor data from the Arduino, how to trigger actuators remotely, and how to reprogram Arduino using cloud services.</p>
+               
             </div>
 
             <div id="thumb4">
-                <div class="media"><img src="./workshop/images/pcb.png"/></div>
+                <div class="media"><img src="images/pcb.png"/></div>
                 <h1>PCB DESIGNING</h1>
-                <p>This will be a two day workshop under which following points will be covered -
-                    1. Circuit Designing Techniques.
-                    2. Introduction to PCB Designs.
-                    3. Software Installation and basic commands.
-                    4. Design of basic circuit using software.
-                    5. Introduction to 555 Timer IC.
-                    6. Circuit Implementation for timer circuit.
-                    7. Gerber Layout Creation.
-                    8. Netlist creation
-                    9. Soldering techniques and tips.
-                    10. Etching techniques & process.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <p style="overflow-y: auto;
+                height: 200px;">This will be a two day workshop under which following points will be covered -<br>
+                    1. Circuit Designing Techniques.<br>
+                    2. Introduction to PCB Designs<br>
+                    3. Software Installation and basic commands.<br>
+                    4. Design of basic circuit using software.<br>
+                    5. Introduction to 555 Timer IC.<br>
+                    6. Circuit Implementation for timer circuit.<br>
+                    7. Gerber Layout Creation.<br>
+                    8. Netlist creation<br>
+                    9. Soldering techniques and tips.<br>
+                    10. Etching techniques & process.<br>
+                   <strong>What you get ?</strong><br>
+                   1. Hands on training.<bR>
+                   2. Digital certification from Robokart.com and I-Cell IIT Bombay.<br>
+                   3. Take away Kit.<br>
+                   4. Mega Competition.</p>
+                
             </div>   
         </div>
         
-    </div>
 		
 		
 		
